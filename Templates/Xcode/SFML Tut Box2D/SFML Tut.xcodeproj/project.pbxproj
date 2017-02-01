@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3B1CB91E4233D800691CF4 /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3B1CB81E4233D800691CF4 /* libBox2D.a */; };
+		EE790DAC1E3D25F1002224EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE790DAB1E3D25F1002224EA /* main.cpp */; };
+		EE790DB81E3D267F002224EA /* libsfml-audio.2.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE790DB31E3D267F002224EA /* libsfml-audio.2.4.1.dylib */; };
+		EE790DB91E3D267F002224EA /* libsfml-graphics.2.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE790DB41E3D267F002224EA /* libsfml-graphics.2.4.1.dylib */; };
+		EE790DBA1E3D267F002224EA /* libsfml-network.2.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE790DB51E3D267F002224EA /* libsfml-network.2.4.1.dylib */; };
+		EE790DBB1E3D267F002224EA /* libsfml-system.2.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE790DB61E3D267F002224EA /* libsfml-system.2.4.1.dylib */; };
+		EE790DBC1E3D267F002224EA /* libsfml-window.2.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE790DB71E3D267F002224EA /* libsfml-window.2.4.1.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE790DA61E3D25F1002224EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE3B1CB81E4233D800691CF4 /* libBox2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.a; path = ExternalLibraries/Box2D/lib/libBox2D.a; sourceTree = "<group>"; };
+		EE790DA81E3D25F1002224EA /* SFML Tut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SFML Tut"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE790DAB1E3D25F1002224EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE790DB31E3D267F002224EA /* libsfml-audio.2.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.4.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-audio.2.4.1.dylib"; sourceTree = "<group>"; };
+		EE790DB41E3D267F002224EA /* libsfml-graphics.2.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-graphics.2.4.1.dylib"; sourceTree = "<group>"; };
+		EE790DB51E3D267F002224EA /* libsfml-network.2.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.4.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-network.2.4.1.dylib"; sourceTree = "<group>"; };
+		EE790DB61E3D267F002224EA /* libsfml-system.2.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-system.2.4.1.dylib"; sourceTree = "<group>"; };
+		EE790DB71E3D267F002224EA /* libsfml-window.2.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.4.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-window.2.4.1.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE790DA51E3D25F1002224EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3B1CB91E4233D800691CF4 /* libBox2D.a in Frameworks */,
+				EE790DB81E3D267F002224EA /* libsfml-audio.2.4.1.dylib in Frameworks */,
+				EE790DB91E3D267F002224EA /* libsfml-graphics.2.4.1.dylib in Frameworks */,
+				EE790DBA1E3D267F002224EA /* libsfml-network.2.4.1.dylib in Frameworks */,
+				EE790DBB1E3D267F002224EA /* libsfml-system.2.4.1.dylib in Frameworks */,
+				EE790DBC1E3D267F002224EA /* libsfml-window.2.4.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE790D9F1E3D25F1002224EA = {
+			isa = PBXGroup;
+			children = (
+				EE790DAA1E3D25F1002224EA /* SFML Tut */,
+				EE790DA91E3D25F1002224EA /* Products */,
+				EE790DB21E3D267F002224EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE790DA91E3D25F1002224EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE790DA81E3D25F1002224EA /* SFML Tut */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE790DAA1E3D25F1002224EA /* SFML Tut */ = {
+			isa = PBXGroup;
+			children = (
+				EE790DAB1E3D25F1002224EA /* main.cpp */,
+			);
+			path = "SFML Tut";
+			sourceTree = "<group>";
+		};
+		EE790DB21E3D267F002224EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE3B1CB81E4233D800691CF4 /* libBox2D.a */,
+				EE790DB31E3D267F002224EA /* libsfml-audio.2.4.1.dylib */,
+				EE790DB41E3D267F002224EA /* libsfml-graphics.2.4.1.dylib */,
+				EE790DB51E3D267F002224EA /* libsfml-network.2.4.1.dylib */,
+				EE790DB61E3D267F002224EA /* libsfml-system.2.4.1.dylib */,
+				EE790DB71E3D267F002224EA /* libsfml-window.2.4.1.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE790DA71E3D25F1002224EA /* SFML Tut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE790DAF1E3D25F1002224EA /* Build configuration list for PBXNativeTarget "SFML Tut" */;
+			buildPhases = (
+				EE790DA41E3D25F1002224EA /* Sources */,
+				EE790DA51E3D25F1002224EA /* Frameworks */,
+				EE790DA61E3D25F1002224EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFML Tut";
+			productName = "SFML Tut";
+			productReference = EE790DA81E3D25F1002224EA /* SFML Tut */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE790DA01E3D25F1002224EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sonar Systems";
+				TargetAttributes = {
+					EE790DA71E3D25F1002224EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE790DA31E3D25F1002224EA /* Build configuration list for PBXProject "SFML Tut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE790D9F1E3D25F1002224EA;
+			productRefGroup = EE790DA91E3D25F1002224EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE790DA71E3D25F1002224EA /* SFML Tut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE790DA41E3D25F1002224EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE790DAC1E3D25F1002224EA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE790DAD1E3D25F1002224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE790DAE1E3D25F1002224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE790DB01E3D25F1002224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/ExternalLibraries/SFML/include",
+					"${SRCROOT}/ExternalLibraries/Box2D/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/lib",
+					"$(PROJECT_DIR)/ExternalLibraries/Box2D/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE790DB11E3D25F1002224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/ExternalLibraries/SFML/include",
+					"${SRCROOT}/ExternalLibraries/Box2D/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/lib",
+					"$(PROJECT_DIR)/ExternalLibraries/Box2D/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE790DA31E3D25F1002224EA /* Build configuration list for PBXProject "SFML Tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE790DAD1E3D25F1002224EA /* Debug */,
+				EE790DAE1E3D25F1002224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE790DAF1E3D25F1002224EA /* Build configuration list for PBXNativeTarget "SFML Tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE790DB01E3D25F1002224EA /* Debug */,
+				EE790DB11E3D25F1002224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE790DA01E3D25F1002224EA /* Project object */;
+}
