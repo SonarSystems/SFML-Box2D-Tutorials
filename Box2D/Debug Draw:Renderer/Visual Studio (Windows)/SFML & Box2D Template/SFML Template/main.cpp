@@ -1,5 +1,5 @@
-#include <SFML\Graphics.hpp>
-#include <Box2D\Box2D.h>
+#include <SFML/Graphics.hpp>
+#include <Box2D/Box2D.h>
 #include "b2GLDraw.h"
 
 /** We need this to easily convert between pixel and real-world coordinates*/
