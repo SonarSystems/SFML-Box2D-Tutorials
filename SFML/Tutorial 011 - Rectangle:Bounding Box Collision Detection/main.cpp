@@ -6,7 +6,7 @@
 int main( )
 {
     sf::RenderWindow window( sf::VideoMode( 1920, 1080 ), "Awesome Game" );
-
+    
     sf::Texture crashTexture;
     crashTexture.loadFromFile( "res/img/CrashBandicoot.png" );
     
@@ -18,7 +18,8 @@ int main( )
     
     sf::Sprite akuAku;
     akuAku.setTexture( akuTexture );
-
+    
+    akuAku.setPosition( window.getSize( ).x / 2 - akuAku.getLocalBounds( ).width / 2, window.getSize( ).y / 2 - akuAku.getLocalBounds( ).height / 2 );
     
     while ( window.isOpen( ) )
     {
@@ -71,14 +72,19 @@ int main( )
         
         window.clear( );
         
-        window.draw( crashBandicoot );
         window.draw( akuAku );
+        window.draw( crashBandicoot );
         
         window.display( );
     }
     
     return EXIT_SUCCESS;
 }
+
+
+
+
+
 
 
 
