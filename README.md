@@ -14,6 +14,7 @@
 10. Playing & Recording Autio
 11. Views
 12. Rectangle/Bounding Box Collision Detection
+13. Circle Collision
 
 ## Box2D Tutorials
 
