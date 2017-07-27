@@ -67,7 +67,7 @@ int main()
 		float dy = (redSprite.getPosition().y + (shape1.height / 2)) - (yellowSprite.getPosition().y + (shape2.height / 2));
 		float distance = std::sqrt((dx * dx) + (dy * dy));
 
-		if (distance < (shape1.width / 2) + (shape2.width / 2))
+		if (distance <= (shape1.width / 2) + (shape2.width / 2))
 		{
 			std::cout << "Collision Detected" << std::endl;
 		}
