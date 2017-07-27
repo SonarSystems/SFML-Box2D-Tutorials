@@ -13,6 +13,7 @@
 9. Tranforming An Object Using Input
 10. Playing & Recording Autio
 11. Views
+12. Rectangle/Bounding Box Collision Detection
 
 ## Box2D Tutorials
 
