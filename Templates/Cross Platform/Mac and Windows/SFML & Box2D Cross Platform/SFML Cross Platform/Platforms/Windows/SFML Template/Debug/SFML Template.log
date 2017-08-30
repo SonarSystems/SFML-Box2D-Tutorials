@@ -1,0 +1,9 @@
+﻿  b2GLDraw.cpp
+c:\users\thund\desktop\sfml cross platform\sfml cross platform\code\b2gldraw.cpp(36): warning C4101: 'glVertices': unreferenced local variable
+c:\users\thund\desktop\sfml cross platform\sfml cross platform\code\b2gldraw.cpp(53): warning C4101: 'glVertices': unreferenced local variable
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...
+  SFML Template.vcxproj -> C:\Users\thund\Desktop\SFML Cross Platform\SFML Cross Platform\Platforms\Windows\Debug\SFML Template.exe
+  SFML Template.vcxproj -> C:\Users\thund\Desktop\SFML Cross Platform\SFML Cross Platform\Platforms\Windows\Debug\SFML Template.pdb (Full PDB)
