@@ -1,0 +1,6 @@
+#pragma once
+
+#define SCREEN_WIDTH 1920
+#define SCREEN_HEIGHT 1080
+
+#define WINDOW_TITLE "PR0J3CT GR4V1TY"

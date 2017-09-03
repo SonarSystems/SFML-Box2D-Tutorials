@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE08DDA71F5860D200987C3E /* AssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DD9A1F5860D200987C3E /* AssetManager.cpp */; };
+		EE08DDA81F5860D200987C3E /* b2GLDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DD9C1F5860D200987C3E /* b2GLDraw.cpp */; };
+		EE08DDA91F5860D200987C3E /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DD9E1F5860D200987C3E /* Game.cpp */; };
+		EE08DDAA1F5860D200987C3E /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DDA11F5860D200987C3E /* InputManager.cpp */; };
+		EE08DDAB1F5860D200987C3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DDA31F5860D200987C3E /* main.cpp */; };
+		EE08DDAC1F5860D200987C3E /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DDA51F5860D200987C3E /* StateMachine.cpp */; };
+		EE08DDB01F58615300987C3E /* SplashState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE08DDAE1F58615300987C3E /* SplashState.cpp */; };
+		EECB13BD1F521E6300B6A50B /* libsfml-audio.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13B81F521E6300B6A50B /* libsfml-audio.2.4.2.dylib */; };
+		EECB13BE1F521E6300B6A50B /* libsfml-graphics.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13B91F521E6300B6A50B /* libsfml-graphics.2.4.2.dylib */; };
+		EECB13BF1F521E6300B6A50B /* libsfml-network.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13BA1F521E6300B6A50B /* libsfml-network.2.4.2.dylib */; };
+		EECB13C01F521E6300B6A50B /* libsfml-system.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13BB1F521E6300B6A50B /* libsfml-system.2.4.2.dylib */; };
+		EECB13C11F521E6300B6A50B /* libsfml-window.2.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13BC1F521E6300B6A50B /* libsfml-window.2.4.2.dylib */; };
+		EECB13D31F5225E800B6A50B /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = EECB13D11F5225CC00B6A50B /* Resources */; };
+		EECB13D51F5775D300B6A50B /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13D41F5775D300B6A50B /* libBox2D.a */; };
+		EECB13DA1F57778200B6A50B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECB13D91F57778200B6A50B /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE790DA61E3D25F1002224EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EECB13D21F5225DA00B6A50B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				EECB13D31F5225E800B6A50B /* Resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE08DD9A1F5860D200987C3E /* AssetManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AssetManager.cpp; sourceTree = "<group>"; };
+		EE08DD9B1F5860D200987C3E /* AssetManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AssetManager.hpp; sourceTree = "<group>"; };
+		EE08DD9C1F5860D200987C3E /* b2GLDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2GLDraw.cpp; sourceTree = "<group>"; };
+		EE08DD9D1F5860D200987C3E /* b2GLDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2GLDraw.h; sourceTree = "<group>"; };
+		EE08DD9E1F5860D200987C3E /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		EE08DD9F1F5860D200987C3E /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		EE08DDA01F5860D200987C3E /* glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glext.h; sourceTree = "<group>"; };
+		EE08DDA11F5860D200987C3E /* InputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		EE08DDA21F5860D200987C3E /* InputManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InputManager.hpp; sourceTree = "<group>"; };
+		EE08DDA31F5860D200987C3E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE08DDA41F5860D200987C3E /* State.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hpp; sourceTree = "<group>"; };
+		EE08DDA51F5860D200987C3E /* StateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
+		EE08DDA61F5860D200987C3E /* StateMachine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
+		EE08DDAE1F58615300987C3E /* SplashState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashState.cpp; sourceTree = "<group>"; };
+		EE08DDAF1F58615300987C3E /* SplashState.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SplashState.hpp; sourceTree = "<group>"; };
+		EE08DDB11F58621600987C3E /* ENGINEDEFINITIONS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ENGINEDEFINITIONS.hpp; sourceTree = "<group>"; };
+		EE790DA81E3D25F1002224EA /* SFML Tut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SFML Tut"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECB13B81F521E6300B6A50B /* libsfml-audio.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.4.2.dylib"; path = "../../External Libraries/Mac/SFML/lib/libsfml-audio.2.4.2.dylib"; sourceTree = "<group>"; };
+		EECB13B91F521E6300B6A50B /* libsfml-graphics.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.4.2.dylib"; path = "../../External Libraries/Mac/SFML/lib/libsfml-graphics.2.4.2.dylib"; sourceTree = "<group>"; };
+		EECB13BA1F521E6300B6A50B /* libsfml-network.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.4.2.dylib"; path = "../../External Libraries/Mac/SFML/lib/libsfml-network.2.4.2.dylib"; sourceTree = "<group>"; };
+		EECB13BB1F521E6300B6A50B /* libsfml-system.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.4.2.dylib"; path = "../../External Libraries/Mac/SFML/lib/libsfml-system.2.4.2.dylib"; sourceTree = "<group>"; };
+		EECB13BC1F521E6300B6A50B /* libsfml-window.2.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.4.2.dylib"; path = "../../External Libraries/Mac/SFML/lib/libsfml-window.2.4.2.dylib"; sourceTree = "<group>"; };
+		EECB13D11F5225CC00B6A50B /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = ../../../Resources; sourceTree = "<group>"; };
+		EECB13D41F5775D300B6A50B /* libBox2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.a; path = "../../External Libraries/Mac/Box2D/lib/libBox2D.a"; sourceTree = "<group>"; };
+		EECB13D91F57778200B6A50B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE790DA51E3D25F1002224EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECB13DA1F57778200B6A50B /* OpenGL.framework in Frameworks */,
+				EECB13D51F5775D300B6A50B /* libBox2D.a in Frameworks */,
+				EECB13BD1F521E6300B6A50B /* libsfml-audio.2.4.2.dylib in Frameworks */,
+				EECB13BE1F521E6300B6A50B /* libsfml-graphics.2.4.2.dylib in Frameworks */,
+				EECB13BF1F521E6300B6A50B /* libsfml-network.2.4.2.dylib in Frameworks */,
+				EECB13C01F521E6300B6A50B /* libsfml-system.2.4.2.dylib in Frameworks */,
+				EECB13C11F521E6300B6A50B /* libsfml-window.2.4.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE08DD991F5860D200987C3E /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				EE08DD9A1F5860D200987C3E /* AssetManager.cpp */,
+				EE08DD9C1F5860D200987C3E /* b2GLDraw.cpp */,
+				EE08DD9E1F5860D200987C3E /* Game.cpp */,
+				EE08DDA11F5860D200987C3E /* InputManager.cpp */,
+				EE08DDA31F5860D200987C3E /* main.cpp */,
+				EE08DDA51F5860D200987C3E /* StateMachine.cpp */,
+				EE08DD9D1F5860D200987C3E /* b2GLDraw.h */,
+				EE08DDA01F5860D200987C3E /* glext.h */,
+				EE08DD9B1F5860D200987C3E /* AssetManager.hpp */,
+				EE08DDB11F58621600987C3E /* ENGINEDEFINITIONS.hpp */,
+				EE08DD9F1F5860D200987C3E /* Game.hpp */,
+				EE08DDA21F5860D200987C3E /* InputManager.hpp */,
+				EE08DDA41F5860D200987C3E /* State.hpp */,
+				EE08DDA61F5860D200987C3E /* StateMachine.hpp */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		EE08DDAD1F58615300987C3E /* game */ = {
+			isa = PBXGroup;
+			children = (
+				EE08DDAE1F58615300987C3E /* SplashState.cpp */,
+				EE08DDAF1F58615300987C3E /* SplashState.hpp */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		EE790D9F1E3D25F1002224EA = {
+			isa = PBXGroup;
+			children = (
+				EE790DAA1E3D25F1002224EA /* SFML Tut */,
+				EE790DA91E3D25F1002224EA /* Products */,
+				EE790DB21E3D267F002224EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE790DA91E3D25F1002224EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE790DA81E3D25F1002224EA /* SFML Tut */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE790DAA1E3D25F1002224EA /* SFML Tut */ = {
+			isa = PBXGroup;
+			children = (
+				EECB13D11F5225CC00B6A50B /* Resources */,
+				EECB13C81F52221400B6A50B /* Code */,
+			);
+			path = "SFML Tut";
+			sourceTree = "<group>";
+		};
+		EE790DB21E3D267F002224EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECB13D91F57778200B6A50B /* OpenGL.framework */,
+				EECB13D41F5775D300B6A50B /* libBox2D.a */,
+				EECB13B81F521E6300B6A50B /* libsfml-audio.2.4.2.dylib */,
+				EECB13B91F521E6300B6A50B /* libsfml-graphics.2.4.2.dylib */,
+				EECB13BA1F521E6300B6A50B /* libsfml-network.2.4.2.dylib */,
+				EECB13BB1F521E6300B6A50B /* libsfml-system.2.4.2.dylib */,
+				EECB13BC1F521E6300B6A50B /* libsfml-window.2.4.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECB13C81F52221400B6A50B /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				EE08DD991F5860D200987C3E /* engine */,
+				EE08DDAD1F58615300987C3E /* game */,
+			);
+			name = Code;
+			path = ../../../Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE790DA71E3D25F1002224EA /* SFML Tut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE790DAF1E3D25F1002224EA /* Build configuration list for PBXNativeTarget "SFML Tut" */;
+			buildPhases = (
+				EE790DA41E3D25F1002224EA /* Sources */,
+				EE790DA51E3D25F1002224EA /* Frameworks */,
+				EE790DA61E3D25F1002224EA /* CopyFiles */,
+				EECB13D21F5225DA00B6A50B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFML Tut";
+			productName = "SFML Tut";
+			productReference = EE790DA81E3D25F1002224EA /* SFML Tut */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE790DA01E3D25F1002224EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sonar Systems";
+				TargetAttributes = {
+					EE790DA71E3D25F1002224EA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE790DA31E3D25F1002224EA /* Build configuration list for PBXProject "SFML Tut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE790D9F1E3D25F1002224EA;
+			productRefGroup = EE790DA91E3D25F1002224EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE790DA71E3D25F1002224EA /* SFML Tut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE790DA41E3D25F1002224EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE08DDAA1F5860D200987C3E /* InputManager.cpp in Sources */,
+				EE08DDA91F5860D200987C3E /* Game.cpp in Sources */,
+				EE08DDA81F5860D200987C3E /* b2GLDraw.cpp in Sources */,
+				EE08DDAB1F5860D200987C3E /* main.cpp in Sources */,
+				EE08DDB01F58615300987C3E /* SplashState.cpp in Sources */,
+				EE08DDA71F5860D200987C3E /* AssetManager.cpp in Sources */,
+				EE08DDAC1F5860D200987C3E /* StateMachine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE790DAD1E3D25F1002224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE790DAE1E3D25F1002224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE790DB01E3D25F1002224EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/../../External Libraries/Mac/SFML/include\"",
+					"\"${SRCROOT}/../../External Libraries/Mac/Box2D/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/../../External Libraries/Mac/SFML/lib\"",
+					"\"$(PROJECT_DIR)/../../External Libraries/Mac/Box2D/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE790DB11E3D25F1002224EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${SRCROOT}/../../External Libraries/Mac/SFML/include\"",
+					"\"${SRCROOT}/../../External Libraries/Mac/Box2D/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/../../External Libraries/Mac/SFML/lib\"",
+					"\"$(PROJECT_DIR)/../../External Libraries/Mac/Box2D/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE790DA31E3D25F1002224EA /* Build configuration list for PBXProject "SFML Tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE790DAD1E3D25F1002224EA /* Debug */,
+				EE790DAE1E3D25F1002224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE790DAF1E3D25F1002224EA /* Build configuration list for PBXNativeTarget "SFML Tut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE790DB01E3D25F1002224EA /* Debug */,
+				EE790DB11E3D25F1002224EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE790DA01E3D25F1002224EA /* Project object */;
+}

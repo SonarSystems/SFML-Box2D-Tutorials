@@ -1,0 +1,15 @@
+﻿  SplashState.cpp
+  StateMachine.cpp
+  main.cpp
+  InputManager.cpp
+c:\users\thund\desktop\sfml & box2d cross platform\sfml & box2d cross platform\sfml cross platform\code\engine\inputmanager.cpp(11): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\thund\desktop\sfml & box2d cross platform\sfml & box2d cross platform\sfml cross platform\code\engine\inputmanager.cpp(11): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  Game.cpp
+  b2GLDraw.cpp
+c:\users\thund\desktop\sfml & box2d cross platform\sfml & box2d cross platform\sfml cross platform\code\engine\b2gldraw.cpp(36): warning C4101: 'glVertices': unreferenced local variable
+c:\users\thund\desktop\sfml & box2d cross platform\sfml & box2d cross platform\sfml cross platform\code\engine\b2gldraw.cpp(53): warning C4101: 'glVertices': unreferenced local variable
+  AssetManager.cpp
+  Generating Code...
+  LINK : C:\Users\thund\Desktop\SFML & Box2D Cross Platform\SFML & Box2D Cross Platform\SFML Cross Platform\Platforms\Windows\Debug\SFML Template.exe not found or not built by the last incremental link; performing full link
+  SFML Template.vcxproj -> C:\Users\thund\Desktop\SFML & Box2D Cross Platform\SFML & Box2D Cross Platform\SFML Cross Platform\Platforms\Windows\Debug\SFML Template.exe
+  SFML Template.vcxproj -> C:\Users\thund\Desktop\SFML & Box2D Cross Platform\SFML & Box2D Cross Platform\SFML Cross Platform\Platforms\Windows\Debug\SFML Template.pdb (Full PDB)
